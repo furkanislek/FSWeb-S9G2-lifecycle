@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Titillium Web';
   src: url('../fonts/TitilliumWeb-SemiBold.ttf');
+  
 }
 
 body::after {
@@ -27,7 +28,7 @@ body, input, button {
 }
 
 h1, h2, h3 {
-  color: #93005a;
+  color: #119300;
 
 }
 
