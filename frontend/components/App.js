@@ -83,7 +83,7 @@ export default function App() {
   }
 
   const handleToggle = () => {
-    setHideDone(!hideDone)
+    setHideDone(!hideDone);
   }
 
   return (
@@ -96,7 +96,7 @@ export default function App() {
       <Form doSubmit={handleSubmit} />
 
       <button onClick={handleToggle}>
-        Tamamlananları {hideDone ? "goster" : "gizle"}
+        Tamamlananları {hideDone ? "Göster" : "Gizle"}
       </button>
     </>
   );
